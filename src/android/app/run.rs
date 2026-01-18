@@ -69,7 +69,7 @@ impl ApplicationHandler for PolarBearApp {
                 output.change_current_state(
                     Some(Mode {
                         size: size.into(),
-                        refresh: 60000,
+                        refresh: 120000,
                     }), // the resolution mode,
                     Some(Transform::Normal), // global screen transformation
                     Some(Scale::Fractional(scale_factor)), // global screen scaling factor
